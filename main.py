@@ -3,9 +3,9 @@ from aiogram.types import Message
 from aiogram.filters import Command
 import asyncio
 import requests
-from config import TOKEN  # Убедитесь, что в config.py указан ваш токен
+from config import TOKEN  
 
-# API-ключ для OpenWeatherMap
+
 WEATHER_API_KEY = '396c2829c4d848d0da39cd947999a7fa'
 
 # Инициализация бота и диспетчера
